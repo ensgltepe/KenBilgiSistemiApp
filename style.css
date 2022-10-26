@@ -1,0 +1,436 @@
+html,
+body,
+#mainmenu{
+    position: relative;
+    display: solid;
+    background-color: rgb(224, 243, 240);
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0;
+}
+#header{
+    position: relative;
+    display: flex;
+    width: 99%;
+    height: 9%;
+    border-style: solid;
+    box-shadow: 0px 5px 15px black;
+    border-color: rgb(224, 243, 240);
+}
+#caybel{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    top: 0vh;
+}
+#center{
+    display: block;
+    width: 100%;
+    height: 15%;
+    margin-top: 20%;
+}
+#icons1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+#icons2{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    height: 90%;
+}
+#pharmacy{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#callcenter{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#hospitaldiv{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#weather{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+#bottom{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    top: 20%;
+    
+}
+#map{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    z-index: 999;
+}
+#font1{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.2px solid black;
+    font-size: large;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: yellowgreen;
+    font-weight: bolder;
+    
+}
+#font2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.2px solid black;
+    font-size: large;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: yellowgreen;
+    font-weight: bolder;    
+}
+#font3{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.2px solid black;
+    font-size: large;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: yellowgreen;
+    font-weight: bolder;
+}
+#font4{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.2px solid black;
+    font-size: large;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: yellowgreen;
+    font-weight: bolder;
+}
+#icon1{
+    border:0.2px solid black;
+    border-radius: 3px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: inset 0.5px 0.5px 50px 0.01px black;
+}
+#icon2{
+    border:0.2px solid black;
+    border-radius: 3px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: inset 0.5px 0.5px 50px 0.01px black;
+}
+#icon3{
+    border:0.2px solid black;
+    border-radius: 3px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: inset 0.5px 0.5px 50px 0.01px black;
+}
+#icon4{
+    border:0.2px solid black;
+    border-radius: 3px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: inset 0.5px 0.5px 50px 0.01px black;
+}
+
+/* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS */
+/* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS */
+/* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS */
+/* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS */
+/* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS *//* Weather CSS */
+
+#bodyweather
+{
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  background: aqua;;
+}
+
+div.widget
+{
+  display: solid;
+  position: relative;
+  width: 80%;
+  height: 125px;
+  background-color: #fcfdfd;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+  margin-right: auto;
+  margin-left: auto;
+  top: 30vh;
+ 
+}
+
+
+div#date
+{
+  position: relative;
+  width: 50%;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+
+#city
+{
+  position: relative;
+  left: 30%;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
+
+div#temp
+{
+  position: relative;
+  font-size: 71px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+  width: 50%;
+  top: 5vh;
+}
+
+div.panel
+{
+  display: flex;
+}
+
+div.right-panel
+{
+  position: absolute;
+  float: right;
+  top: 0;
+  margin-top: 35px;
+  padding-left: 10px;
+}
+#difference{
+    display: solid;
+    position: relative;
+    width: 50%;
+    text-align: end;
+    align-items: flex-end;
+    top: 5vh;
+
+}
+
+/* Beyaz Masa CSS */ /* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS */
+/* Beyaz Masa CSS */ /* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS */
+/* Beyaz Masa CSS */ /* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS */
+/* Beyaz Masa CSS */ /* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS *//* Beyaz Masa CSS */
+
+html,
+body{
+    background-color: aqua;
+}
+#sendbox{
+    position: relative;
+    width: 90%;
+    height: 30vh;
+    background-color: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 30px 0.2px black;
+    top: 30vh;
+}
+#buton{
+    position: relative;
+    display: block;
+    top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(126, 5, 5);
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 4px;
+}
+#mail{
+    position: relative;
+    display: block;
+    top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 2px 2px 20px 0.01px black;
+    opacity: 1;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+#istek{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    background-color: yellowgreen;
+    box-shadow:inset 2px 2px 40px 0.1px black;
+    opacity: 1;
+    border-radius: 8px;
+    color: white;
+    
+}
+::placeholder{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Pharmacy CSS */ /* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS */
+/* Pharmacy CSS */ /* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS */
+/* Pharmacy CSS */ /* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS */
+/* Pharmacy CSS */ /* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS */
+/* Pharmacy CSS */ /* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS *//* Pharmacy CSS */
+#eczanemenu{
+    display: table;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+#eczane1{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+#eczane2{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+#eczane3{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+#eczane4{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+#eczane5{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+.pharmlogo{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconpharm{
+    position: relative;
+    width: 50%;
+}
+#pharm1,#pharm2,#pharm3,#pharm4,#pharm5{
+    text-align: center;
+}
+.datapharm{
+    position: relative;
+    width: 50%;
+    display: solid;
+}
+.phonelogo{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 30%;
+}
+.telephonediv{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+#phone1, #phone2, #phone3, #phone4, #phone5{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+}
+.navilogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS */
+/* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS */
+/* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS */
+/* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS *//* Navigation CSS */
+
+
+#navigasyon{
+    height: 100vh;
+    width: 100%;
+}
+#map2{
+    height: 100vh;
+    width: 100%;
+}
+/* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS */
+/* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS */
+/* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS */
+/* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS *//* HOSPİTAL CSS */
+#map3{
+    width: 100%;
+    height: 100vh;
+}

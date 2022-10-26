@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÇAYBEL CEBİMDE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+</head>
+<body>
+    <div id="mainmenu">
+        <div id="header">
+            <a href="https://caycuma.bel.tr/"><img id="caybel" src="./icons/white-house.png"></a>
+        </div>
+        <div id="center">
+            <div id="icons1">
+            <a href="./pharmacy.html" id="icon1">
+                <img id="pharmacy" src="icons/pharmacy.png">
+                <p id="font1">Nöbetçi Eczane</p>
+            </a>
+            <a href="./weather.html" id="icon2">
+                <img id="weather" src="./icons/cloudy.png">
+                <p id="font2">Hava Durumu</p>
+            </a>
+            </div>
+            <div id="icons2">
+                <a href="./hospital.html" id="icon3">
+                    <img id="hospitaldiv" src="icons/hospital.png">
+                    <p id="font3">En Yakın Hastane</p>
+                </a>
+                <a href="./beyazmasa.html" id="icon4">
+                    <img id="callcenter" src="./icons/call-center-agent.png">
+                    <p id="font4">Beyaz Masa</p>
+                </a>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="map"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
